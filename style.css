@@ -125,7 +125,7 @@ header {
   margin: 0 auto;
   width: 100px;
   height: 100px;
-  background: url(/images/avatar.jpg);
+  background: url(images/avatar.jpg);
   background-size: cover;
   border-radius: 50%;
   background-position: center;
