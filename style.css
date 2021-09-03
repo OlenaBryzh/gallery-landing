@@ -50,7 +50,7 @@ header {
   height: auto;
   box-shadow: 1px 1px 5px 0.5px rgb(170, 170, 170);
   border-radius: 3px;
-  margin: 10px 5px 20px 20px;
+  margin: 10px 20px;
   padding: 10px;
   display: grid;
   grid-template-areas: "top-1 top-2 top-3"
@@ -117,7 +117,7 @@ header {
   height: auto;
   box-shadow: 1px 1px 5px 0.5px rgb(170, 170, 170);
   border-radius: 3px;
-  margin: 10px 20px 20px 5px;
+  margin: 10px;
   text-align: center;
   padding: 15px;
 }
@@ -154,7 +154,7 @@ footer {
   grid-area: footer;
   box-shadow: 1px 1px 5px 0.5px rgb(170, 170, 170);
   border-radius: 3px;
-  margin: 0px 20px 20px;
+  margin: 10px 20px;
   padding: 15px 0;
 }
 .footer-logo {
@@ -184,20 +184,19 @@ footer {
   .main-container {
     grid-template-areas: "galery galery galery"
                          "galery galery galery"
-                         "aside aside aside"; 
-                         
+                         "aside aside aside";                       
   }  
   .aside-top-content {
     height: auto;
-    margin: 0px;
+    margin: 1rem 0;
     padding: 1rem;
   }
   .grid-galery-container {
-    margin: 10px 0px 10px 0px;
+    margin: 0;
     height: 80vh;
   }
   header{
-    margin: 10px 10px 15px 5px;
+    margin: 1rem;
   }
   footer {
     display: none;
